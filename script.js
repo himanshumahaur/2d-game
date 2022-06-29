@@ -42,7 +42,7 @@ function damage(p1, p2, title) {
     
 
     if((player1.hp>player2.hp && timer===0) || (player2.hp==0 && timer>0)) {
-        document.querySelector('#displayText').innerHTML = 'Samurai Wins!'
+        document.querySelector('#displayText').innerHTML = 'Warr Wins!'
         clearTimeout(countdown)
     }
     else if((player1.hp<player2.hp && timer===0) || (player1.hp==0 && timer>0)) {
